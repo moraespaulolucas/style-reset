@@ -1,31 +1,32 @@
+/* all elements */
 * {
+	/* box-sizing */
+	box-sizing: border-box;
+	/* margin */
 	margin-block-start: 0;
 	margin-block-end: 0;
 	margin-inline-start: 0;
 	margin-inline-end: 0;
 	margin: 0;
+	/* padding */
 	padding: 0;
+	/* border */
 	border: 0;
+	/* font */
 	font: inherit;
 	vertical-align: baseline;
-	box-sizing: border-box;
+	/* min sizes */
+	min-width: none;
 }
 
-html {
-	font-size: 1em;
-	line-height: 1;
-}
-
+/* a href */
 a {
 	text-decoration: none;
 	color: inherit;
 }
 
-ul, ol {
+/* lists */
+ul,
+ol {
 	list-style: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
